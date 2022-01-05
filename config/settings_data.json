@@ -1,0 +1,158 @@
+{
+  "current": {
+    "colors_solid_button_labels": "#FFFFFF",
+    "colors_accent_1": "#334FB4",
+    "colors_accent_2": "#334FB4",
+    "colors_text": "#121212",
+    "colors_outline_button_labels": "#121212",
+    "colors_background_1": "#FFFFFF",
+    "colors_background_2": "#F3F3F3",
+    "type_header_font": "assistant_n4",
+    "type_body_font": "assistant_n4",
+    "page_width": "1600",
+    "social_twitter_link": "",
+    "predictive_search_show_vendor": false,
+    "favicon": "shopify:\/\/shop_images\/TT-logo.png",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to Town Trends for better quality and offers.",
+              "color_scheme": "background-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "color_scheme": "background-1",
+          "logo_width": 100,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "footer-1": {
+            "type": "text",
+            "settings": {
+              "heading": "TownTrends",
+              "subtext": "<p><strong>1st floor, Plaza complex, near Alankar theatre, <\/strong><\/p><p><strong>Udupi - 576101<\/strong><\/p>"
+            }
+          },
+          "0dc75556-fdea-4ef2-98ac-0b3a4fbb193a": {
+            "type": "link_list",
+            "disabled": true,
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "0dc75556-fdea-4ef2-98ac-0b3a4fbb193a"
+        ],
+        "settings": {
+          "color_scheme": "accent-2",
+          "newsletter_enable": true,
+          "newsletter_heading": "Subscribe to our news letter",
+          "show_social": false,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  },
+  "presets": {
+    "Default": {
+      "colors_solid_button_labels": "#FFFFFF",
+      "colors_accent_1": "#121212",
+      "colors_accent_2": "#334FB4",
+      "colors_text": "#121212",
+      "colors_outline_button_labels": "#121212",
+      "colors_background_1": "#FFFFFF",
+      "colors_background_2": "#F3F3F3",
+      "type_header_font": "assistant_n4",
+      "type_body_font": "assistant_n4",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "announcement-bar-0": {
+              "type": "announcement",
+              "settings": {
+                "color_scheme": "background-1"
+              }
+            }
+          },
+          "block_order": [
+            "announcement-bar-0"
+          ],
+          "settings": {
+          }
+        }
+      }
+    },
+    "Craft": {
+      "colors_solid_button_labels": "#EFECEC",
+      "colors_accent_1": "#2A332F",
+      "colors_accent_2": "#476154",
+      "colors_text": "#1C1A1A",
+      "colors_outline_button_labels": "#7B8382",
+      "colors_background_1": "#EFECEC",
+      "colors_background_2": "#C1BCAE",
+      "type_header_font": "americana_n4",
+      "type_body_font": "quattrocento_sans_n4",
+      "sections": {
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "menu": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "menu",
+            "text"
+          ],
+          "settings": {
+            "color_scheme": "accent-1"
+          }
+        }
+      }
+    }
+  }
+}

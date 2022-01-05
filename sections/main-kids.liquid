@@ -1,0 +1,29 @@
+<h1>{{product.title}}</h1>
+<img src="{{product.kids_image |image_url:'300x'}}" />
+
+
+{% schema %}
+  {
+    "name": "main kids",
+    "settings": [
+		{
+
+			"id": "product_name",
+            "type":"text",
+            "label":"product name"
+		},
+		{
+			"id": "product_review",
+            "type":"checkbox",
+            "label":"product review"
+		}
+
+				]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
