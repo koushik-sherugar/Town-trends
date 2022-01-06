@@ -1,0 +1,55 @@
+.faq-checkbox {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.tabs {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tab {
+  width: 100%;
+  color: white;
+  overflow: hidden;
+}
+
+.tab-label {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  font-weight: bold;
+  color: white;
+}
+
+.tab-label:after {
+  content: "+";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.tab-content {
+  max-height: 0;
+  padding: 0 1em;
+  background-color: white;
+  transition: all 0.5s;
+  color: black;
+}
+
+.tab-content p {
+  margin: 0;
+}
+
+.faq-checkbox:checked + .tab-label:after {
+  content: "-";
+}
+
+.faq-checkbox:checked ~ .tab-content {
+  max-height: 100vh;
+  padding: 1em;
+}
+Code language: CSS (css)

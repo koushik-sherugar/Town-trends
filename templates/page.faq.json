@@ -1,0 +1,80 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page-faq",
+      "blocks": {
+        "ad8b7f58-0239-4ef6-95a8-5311c0ff070d": {
+          "type": "faq",
+          "settings": {
+            "question": "<p>How long it takes to deliver products?<\/p>",
+            "answer": "<p>within 2-3 days all over india<\/p>"
+          }
+        },
+        "b407d740-f44b-4e73-ba9e-03a1fbaf31a5": {
+          "type": "faq",
+          "settings": {
+            "question": "<p>Can we exchange or return the cloths?<\/p>",
+            "answer": "<p>Yes, we will provide return within 2 days of delivery and exchange is available for the 10 days after purchase<\/p>"
+          }
+        },
+        "de899636-9d47-4d9c-83db-6a65a74500e1": {
+          "type": "faq",
+          "settings": {
+            "question": "<p>What about the quality of the items?<\/p>",
+            "answer": "<p>we accept the clothes from prestegeious brands only and all the clothes undergoes quality test before delivering to the customers<\/p>"
+          }
+        },
+        "3c84cfa7-c324-4d11-bf97-1ad1ad558810": {
+          "type": "faq",
+          "settings": {
+            "question": "<p>Delivery service available outside india?<\/p>",
+            "answer": "<p>Yes, but we will add tax and international delivery charges on the products<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ad8b7f58-0239-4ef6-95a8-5311c0ff070d",
+        "b407d740-f44b-4e73-ba9e-03a1fbaf31a5",
+        "de899636-9d47-4d9c-83db-6a65a74500e1",
+        "3c84cfa7-c324-4d11-bf97-1ad1ad558810"
+      ],
+      "settings": {
+      }
+    },
+    "1641489024f0a44230": {
+      "type": "newsletter",
+      "blocks": {
+        "164148902439805f14-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Do you have any others questions?"
+          }
+        },
+        "164148902439805f14-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Reach us through the email<\/p>"
+          }
+        },
+        "164148902439805f14-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "164148902439805f14-0",
+        "164148902439805f14-1",
+        "164148902439805f14-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1641489024f0a44230"
+  ]
+}

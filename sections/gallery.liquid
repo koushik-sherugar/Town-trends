@@ -1,0 +1,80 @@
+<div class="gallery">
+  
+  {% for block in section.blocks %}
+  <div class="image-wrap" style="background-image:url(' {{block.settings.image |img_url:'500x'}}');">
+  </div>
+  {% endfor %}
+
+{% schema %}
+  {
+    "name": "Gallery",
+    "settings": [
+  		{
+  		"type":"select",
+  "id":"per-row",
+  "label":"Image Per Row",
+  "options":[
+  		{
+  "value": "49%",
+  "label":"2 per row"
+  		},
+  		{
+  "value": "33%",
+  "label":"3 per row"
+  		},
+  		{
+  "value": "25%",
+  "label":"4 per row"
+  		},
+  		{
+  "value": "20%",
+  "label":"5 per row"
+  		}  		
+  			],
+  "default":"33%"
+  		}
+  	],
+  
+	
+		
+	"blocks":[
+		{
+"type":"image",
+"name":"Image Block",
+"settings":[
+		{	
+"type":"image_picker",
+"id": "image",
+"label":"Image"
+	
+		}
+	]
+		
+		
+		}
+	],
+  
+  "presets":
+  		[
+  			{
+  				"category": "custom gallery",
+  				"name": "CustomGallery"
+  
+  			}
+  		]
+  }
+  
+  
+{% endschema %}
+
+{% style %}
+  .image-wrap{
+  display: inline-block;
+  width:{{section.settings.per-row}};
+    height:500px;
+   background-size:cover;
+  }
+{% endstyle %}
+
+{% javascript %}
+{% endjavascript %}

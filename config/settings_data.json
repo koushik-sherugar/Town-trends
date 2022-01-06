@@ -83,6 +83,43 @@
           "enable_language_selector": true,
           "payment_enable": true
         }
+      },
+      "gallery": {
+        "type": "gallery",
+        "blocks": {
+          "9c3bd610-2a9f-4f2b-812b-090f9042be50": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/man-in-suit-on-stairs.jpg"
+            }
+          },
+          "ad50c757-1f87-4113-b1cd-89ab4695ad91": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/pretty-on-pink-brick.jpg"
+            }
+          },
+          "ffaa31e8-3a14-4d9b-8758-3fc3234ce35d": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/dapper-young-man-sits-in-store-window.jpg"
+            }
+          },
+          "0b512e36-aa2b-4cfa-bd22-11d2a50d726e": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/young-man-in-bright-fashion.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "9c3bd610-2a9f-4f2b-812b-090f9042be50",
+          "ad50c757-1f87-4113-b1cd-89ab4695ad91",
+          "ffaa31e8-3a14-4d9b-8758-3fc3234ce35d",
+          "0b512e36-aa2b-4cfa-bd22-11d2a50d726e"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
